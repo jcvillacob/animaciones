@@ -1,0 +1,27 @@
+.imgs {
+    padding: 150px 0 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.img__card__imgs {
+    position: relative;
+    top: 250px;
+    max-width: 30vw;
+    border-radius: 8px;
+    opacity: 0;
+    /* transform: rotate(80deg); */
+    transition: all 0.5s ease;
+}
+
+.unset {
+    top: 0;
+    opacity: 1;
+    /* transform: rotate(0); */
+}

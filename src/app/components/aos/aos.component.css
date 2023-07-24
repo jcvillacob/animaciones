@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    height: 150vh;
+}
+
+.container__scroll {
+    position: absolute;
+    top: 110vh;
+    padding: 50px;
+    background-color: rgb(51, 49, 49);
+    color: #fff;
+}

@@ -1,0 +1,5 @@
+<div class="imgs">
+    <div #imageElement class="card__imgs" *ngFor="let img of imagenes; index as i" [attr.index]="i">
+        <img  [src]="img.url" [alt]="img.name" class="img__card__imgs" [ngClass]="{'unset': img.see}">
+    </div>
+</div>

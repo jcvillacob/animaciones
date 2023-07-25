@@ -12,6 +12,7 @@ import { Swipper4Component } from './components/swipper4/swipper4.component';
 import { PopperComponent } from './components/popper/popper.component';
 import { AosComponent } from './components/aos/aos.component';
 import { ChardComponent } from './components/chard/chard.component';
+import { Swipper5Component } from './components/swipper5/swipper5.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ChardComponent } from './components/chard/chard.component';
     Swipper4Component,
     PopperComponent,
     AosComponent,
-    ChardComponent
+    ChardComponent,
+    Swipper5Component
   ],
   imports: [
     BrowserModule,
